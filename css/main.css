@@ -1,0 +1,12 @@
+html{
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: 'Sigmar One', cursive;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+img {
+
+}
