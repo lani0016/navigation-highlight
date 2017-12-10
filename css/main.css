@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Sigmar One", cursive;
+  font-family: Georgia, serif;
+  font-size: 100%;
 }
 
 *, *::before, *::after {
@@ -9,51 +10,76 @@ html {
 }
 
 h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-family: "Sigmar One";
   color: #cc1465;
   text-align: center;
 }
 
+.nav {
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  font-size: 1.125rem;
+}
+
 .nav li {
   display: inline-block;
+  margin-bottom: .3em;
 }
 
 .nav a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
   background-color: #b2a212;
+  padding: .2em .5em .3em;
   border-radius: 4px;
 }
 
 a:hover {
   background-color: #b20953;
-  color: #2f2d13;
 }
 
 .current {
   background-color: #b20953;
-  color: #2f2d13;
 }
 
 header {
   color: #2f2d13;
   background-color: #ffe500;
+  padding: 0;
 }
 
 h2 {
+  font-family: "Sigmar One";
   color: #cc1465;
+  font-size: 1.875rem;
 }
 
 body {
-
+  margin: 0;
+  padding: 0;
 }
 
 img {
-
+  display: block;
+  width: 100%;
 }
 
 p {
-  font-family: Georgia, sans-serif;
   color: #2f2d13;
+  word-wrap: break-word;
+}
+
+main {
+  padding: 0 .75em;
 }
 
 footer {
+  text-align: center;
   background-color: #ffe500;
+  padding: .75em;
 }
