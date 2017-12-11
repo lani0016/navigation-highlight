@@ -64,12 +64,12 @@ h2 {
   color: #b20953;
   font-size: 1.875rem;
   padding: 0 .75em;
-  margin: .75em 0;
+  margin-bottom: .35em;
 }
 
 figure {
   padding: .75em;
-  margin: .3em;
+  margin: 0;
 }
 
 img {
@@ -89,7 +89,6 @@ p {
 
 main {
   padding: 0;
-  margin: 0;
 }
 
 footer {
